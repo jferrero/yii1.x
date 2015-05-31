@@ -1,5 +1,9 @@
 <?php
 
+date_default_timezone_set("Europe/Madrid");
+
+$date=date("H:i:s");
+
 // change the following paths if necessary
 $yii=dirname(__FILE__).'/../yiibase/framework/yii.php';
 $config=dirname(__FILE__).'/protected/config/main.php';
